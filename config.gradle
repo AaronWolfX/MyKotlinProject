@@ -9,7 +9,13 @@ ext{
     ]
 
     dependVersion = [
+        androidSupportSdkVersion: "20.1.0",
+        retrofitSdkVersion      : "2.3.0"
+    ]
 
+    dependencies = [
+        //support
+            "appcompat-v7"      : "com.android.support:appcompat-v7:${"androidSupportSdkVersion"}"
     ]
 
 }
